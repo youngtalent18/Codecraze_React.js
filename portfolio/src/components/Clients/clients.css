@@ -66,6 +66,7 @@ textarea{
     background-color: hsl(126, 82%, 64%);
     font-size: 1.2rem;
     border-radius: 20px;
+    cursor: pointer;
 }
 .cont1{
     margin-bottom: 1rem;
