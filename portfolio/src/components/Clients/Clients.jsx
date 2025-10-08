@@ -39,8 +39,7 @@ const Clients = () => {
         <Toaster />
         <div className="client">
             <span className='clientT'>My Clients</span>
-            <span className="Descl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed fuga voluptas voluptatibus? Voluptatum quisquam, ipsam facilis aspernatur perferendis quam
-                 ipsum voluptatem ex pariatur. Cum blanditiis inventore suscipit quaerat deleniti ipsum! </span>
+            <span className="Descl">This companies listed below are companies I am looking forward to working for. And many more other tech companies</span>
             <div className="images">
                 <img className='image' src={Adobe} alt="adobe" />
                 <img className='image' src={Walmat} alt="walmat" />
@@ -50,7 +49,7 @@ const Clients = () => {
         </div>
         <div id="contact" className="contact">
             <span className="cont1">Contact Me</span>
-            <span className="cDesc1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa soluta assumenda odit!</span>
+            <span className="cDesc1">Feel free to reach out to me for job opportunities or collaboration</span>
             <form ref={form} onSubmit={sendEmail}>
                 <input type="text" placeholder='Your Name' name="your_name"/>
                 <input type="email" placeholder='Your Email' name="your_email"/>
