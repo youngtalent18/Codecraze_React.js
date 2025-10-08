@@ -32,6 +32,7 @@
     border-radius: 20px;
     background-color: hsl(126, 82%, 64%);
     margin: 1rem 0;
+    cursor: pointer;
 }
 .title {
     font-weight: 100;
