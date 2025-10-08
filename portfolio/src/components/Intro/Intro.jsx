@@ -8,7 +8,7 @@ const Intro = () => {
     <div id="intro" className="intro">
       <div className="introCont">
         <span className="title">Hello,</span>
-        <span className='introS' >I'm <span className="introText">Stephen</span> <br />Website Developer</span>
+        <span className='introS' >I'm <span className="introText">Stephen</span> <br />Software Engineer</span>
         <p className='desci'>I am very passionate about going into Web and App development alongside AI</p>
         <button className="butn" onClick={()=>{
                     document.getElementById('contact').scrollIntoView({behavior:"smooth"});
