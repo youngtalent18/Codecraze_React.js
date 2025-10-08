@@ -34,6 +34,7 @@
     color: hsl(0, 0%, 22%);
     border: none;
     border-radius: 20px;
+    cursor: pointer;
 }
 .active {
     color: hsl(126, 82%, 64%);
