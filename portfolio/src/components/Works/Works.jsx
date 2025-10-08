@@ -11,9 +11,7 @@ const Works = () => {
   return (
     <section className="work">
         <span className="Portf">My Portfolio</span>
-        <span className="PDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Libero perferendis corporis, sunt culpa beatae provident, 
-            obcaecati voluptas, fugiat quasi tempora totam autem? Nesciunt, accusamus at.
+        <span className="PDesc">A sleek, interactive React portfolio designed to reflect creativity and functionality. It highlights my development skills, hands-on projects, and technical growth — built with attention to design, performance, and modern web standards.
         </span>
         <div className="works">
           <img src={Porfolio1} alt="portfolio" />
