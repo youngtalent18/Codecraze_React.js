@@ -7,7 +7,7 @@ const Skills = () => {
   return (
     <section className="skills">
         <span className="job">What I Do</span>
-        <span className="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum voluptate amet facere cum dolorem odio. Autem placeat fugiat minus porro.</span>
+        <span className="desc">Passionately turns my ideas into codes, creating everytime to evolve everywhere.</span>
         <div className="skillbars">
             <div className="skillbar">
                 <img className="img" src={UI} alt="UI" />
