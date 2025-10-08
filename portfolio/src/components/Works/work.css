@@ -1,0 +1,52 @@
+.work {
+    min-height: calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 65rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 0 1rem;
+    margin-top: 2rem;
+}
+.Portf{
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.PDesc {
+    font-size: 1rem;
+    font-weight: 200;
+    max-width: 55rem;
+    text-align: center;
+}
+.works {
+    display: flex;
+    width: 100vw;
+    max-width: 65rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    height: 18rem;
+    object-fit: cover;
+    margin: 0.8rem;
+}
+.view {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    background-color: hsl(126, 82%, 64%);
+    color: hsl(0, 0%, 21%);
+    font-size: 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+@media screen and (max-width: 720px) {
+    .view {
+        background-color: hsl(64, 100%, 67%);
+    }
+}

@@ -1,0 +1,103 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    max-width: 75rem;
+    align-items: center;
+    background-color: hsl(0, 7%, 97%);
+    color: hsl(0, 0%, 23%);
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 5px 15px hsla(0, 0%, 51%, 0.1);
+    margin: 0 auto;
+}
+.logo {
+    height: 3rem;
+    width: 3rem;
+    object-fit: cover;
+}
+
+.navlinkmenu {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+.navlinkmenu:hover {
+    color: hsl(126, 82%, 64%);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid hsl(126, 82%, 64%);
+}
+.btn {
+    padding: 0.8rem 1.5rem;
+    background-color: hsl(126, 82%, 64%);
+    color: hsl(0, 0%, 22%);
+    border: none;
+    border-radius: 20px;
+}
+.active {
+    color: hsl(126, 82%, 64%);
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid hsl(126, 82%, 64%);
+}
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background: hsl(0, 0%, 20%);
+    display: flex;
+    width: 300px;
+    padding: 4rem 2rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    flex-direction: column;
+}
+.menu{
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+    width: 2rem;
+}
+.linkmenu{
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    background: hsl(0, 0%, 28%);
+}
+
+@media screen and (max-width: 720px){
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        max-width: 75rem;
+        align-items: center;
+        background-color:hsl(0, 0%, 29%);
+        color: hsl(0, 0%, 98%);
+        padding: 2rem;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+    }
+    .menu {
+        display: flex;
+    }
+
+    .nav-links, .btn {
+        display: none;
+    }
+    .navlinkmenu:hover {
+        color: hsl(64, 100%, 67%);
+        border-bottom: 2px solid hsl(64, 100%, 67%);
+    }
+    .btn {
+        background-color: hsl(64, 100%, 67%);
+    }
+    .active {
+        color: hsl(64, 100%, 67%);
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid hsl(64, 100%, 67%);
+    }
+}

@@ -1,0 +1,15 @@
+footer {
+    height: 5rem;
+    width: 100vw;
+    background-color: hsl(0, 7%, 97%);
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 250;
+}
+@media screen and (max-width: 720px) {
+    footer {
+        background-color:hsl(0, 0%, 29%);
+    }
+}
